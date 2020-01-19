@@ -1,6 +1,5 @@
-
+/* 
 body {
-    margin: 5px;
     background-color: rgb(186, 186, 190);
 }
 h1.mainHeader {
@@ -9,11 +8,11 @@ h1.mainHeader {
   font-weight: bold;
   color:rgb(21, 34, 211);
   border-width: 1px;
-  /* border-style: solid; */
+  border-style: solid;
   padding: 0.2cm;
   margin-left: 250px;
   margin-right: 250px;
-}
+} */
 
 h1 {
     font-size: 28px;;
@@ -22,7 +21,7 @@ h1 {
     color:blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-p{
+/* p{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -35,11 +34,21 @@ p span {
     
 }
 
+#red-mill{
+    list-style-type: square;
+    color: black;
+}
+
 #name {
     font-style: italic;
     font-size: 20px;
 }
 
-.footer {
-    font-size: 16px;
+.images {
+    margin-left: 25px;
 }
+
+.connectWithChuck {
+    font-size: 16px;
+    margin-bottom: 1px;
+} */
