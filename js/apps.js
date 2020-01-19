@@ -12,7 +12,7 @@ alert('Hi ' + userName + '! \nMy name is Chuck. So that you can get to know me a
 var correctAnswers = 0;
 
 //Question #1
-var question1 = prompt('Question #1. \nAm I from Puerto Rico?');
+var question1 = prompt('Question #1. \nAm I from Puerto Rico? Yes or No.');
 if ((question1.toLowerCase() === 'no') || (question1.toLowerCase() === 'n')) {
   //console.log('CORRECT! \nI was born and raised in Costa Rica!');
   alert('CORRECT! \nI was born and raised in Costa Rica!');
@@ -24,12 +24,12 @@ if ((question1.toLowerCase() === 'no') || (question1.toLowerCase() === 'n')) {
 //Question #2
 var question2 = prompt('Question #2. \nAm I chinese?');
 if ((question2.toLowerCase() === 'yes') || (question2.toLowerCase() === 'y')) {
-  //console.log('CORRECT! \nMy dad is from China and my mom is from Costa Rica. That makes me a rare Costarican-Chinese!');
-  alert('CORRECT! \nMy dad is from China and my mom is from Costa Rica. That makes me a rare Costarican-Chinese!');
+  //console.log('CORRECT! \nMy dad is from China and my mom is from Costa Rica. That makes me a rare Chinese-Costarican!');
+  alert('CORRECT! \nMy dad is from China and my mom is from Costa Rica. That makes me a rare -Chinese-Costarican!');
   correctAnswers ++;
 } else if ((question2.toLowerCase() === 'no') || (question2.toLowerCase() === 'n')) {
-  //console.log('Incorrect :( \nEven though I was born in Costa Rica, my dad is from China, so that makes me a rare Costarican-Chinese!');
-  alert('Incorrect :( \nEven though I was born in Costa Rica, my dad is from China, so that makes me a rare Costarican-Chinese!');
+  //console.log('Incorrect :( \nEven though I was born in Costa Rica, my dad is from China, so that makes me a rare Chinese-Costarican!');
+  alert('Incorrect :( \nEven though I was born in Costa Rica, my dad is from China, so that makes me a rare Chinese-Costarican!');
 }
  
 //Question #3
@@ -70,15 +70,15 @@ var myGrandmaAge = '91';
 
 //give user 4 chances to get the correct answer
 for (var i = 1; i < 5; i++) {
-var question6 = prompt('How old my grandma?');
+var question6 = prompt('How old is my grandma?');
   if (question6 === myGrandmaAge) {
     correctAnswers ++;
     if (i === 1) {
-      alert('Awesome you guessed it on your ' + i + 'st try');
+      alert('Awesome, you guessed it on your ' + i + 'st try');
     } else if (i === 2) {
-      alert('Awesome you guessed it on your ' + i + 'nd try');
+      alert('Awesome, you guessed it on your ' + i + 'nd try');
     } else {
-      alert('Awesome you guessed it on your ' + i + 'th try');
+      alert('Awesome, you guessed it on your ' + i + 'th try');
     }
       break;  
     } else if (question6 > myGrandmaAge) {
@@ -118,5 +118,5 @@ for (var j = 0; j < 6; j++) {
   }
 }
 
-alert('Thank you for playing ' + userName + '! You got ' + correctAnswers + ' correct answers out of 7. See next time!');
+alert('Thank you for playing ' + userName + '! You got ' + correctAnswers + ' correct answers out of 7. See you next time!');
 
