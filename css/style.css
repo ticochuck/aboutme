@@ -1,92 +1,87 @@
-
-body {
-    background-color: rgb(186, 186, 190);
-    margin: 20px;
-}
-h1.mainHeader {
- color: blue;
- font-size: 44px;
- font-weight: bold;
- text-align: center;
-}
-
-h3, #aboutMeIntro {
-    font-weight: bold;
-    font-size: 28px;
-    margin-bottom:10px;
-}
-
-.aboutMe {
-    margin-left: 100px;
-    margin-right: 300px;
-    padding: 25px; 
-    border: 2px, red, solid; 
-}
-
-div.aboutMe {
-    background-color:white;
+html {
+    background-color: rgb(215, 216, 196);
+    border-radius: 3em;
+    margin: 5%;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/659/252/1014/mountains-lake-glacier-national-park-two-medicine-lake-wallpaper-preview.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+  }
+  
+  #meetChuck {
+    width: 50%;
+    margin: 5% 35% 5% 5%;
+    padding: 1% 2% 2%; 
+    background-color: whitesmoke;
+    opacity: 0.8;
+    border-radius: 1em 3em 1em;
     position: absolute;
-    float: left;
-    margin-left: 5%;
-    margin-right: 40%;
-    margin-top: 10px;
-}
-
-p span {
-    color:red;
-    font-weight: bolder;
-}
-
-p {
-    font-size: 18px;
-}
-
-div.work, li {
-    padding-left: 20px;
+  }
+  
+  #profile {
+    min-width: 15%;
+    min-height: 30%;
+    position: absolute;
+    margin: 5% 5% 30% 65%;
+    padding: 1% 2% 2% 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    position: fixed;
+  }
+  
+  .profilePic {
+    border-radius: 2em;
+    max-width: 70%;
+    float: center;
+  }
+  
+  .profileText {
+    color: rgb(215, 216, 196);  
     position: relative;
-}
-
-div.work {
-    background-color: rgb(216, 219, 230);
-    position: absolute;
-    float:left;
-    margin-top: 10px;
-    margin-left: 60%;
-    padding:25px;
-}
-
-h2 {
-    font-size: 20px;
-    margin-bottom: 15px;
+    margin-top: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+  }
+  
+  h1 {
+    color: rgb(3, 112, 175);
+    font-size: 32px;
     font-weight: bold;
-}
-div.favoriteRestaurants {
-    background-color: rgb(169, 212, 169);
-    margin-top: 10px;
-    margin-left: 76%;
-    margin-right: 10%;
-    padding:25px;
-}
-
-ul.workExperience li {
-    list-style: circle;
-    padding-left: 20px;
-}
-
-
-ol, li{
+  }
+  
+  h2 {
+    color: rgb(3, 112, 175);
+    font-size: 18px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-weight: bold;
+  }
+  
+  ul li {
+    margin-left: 1%;
+    list-style-type: circle;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+  }
+  
+  ol li {
+    margin-left: 1%;
     list-style-type: decimal;
-    padding-left: 20px;
-}
-
-.connectWithChuck {
-    margin-top: 100px;
-    margin-bottom: 5px;   
-    font-size: 16px;
-    margin-left: 100px;
-} 
-
-.images {
-    margin-left: 100px;
-}
-
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  span {
+    color: red;
+    font-weight: bold;
+  }
+  
+  i {
+    font-style: italic;
+  }
