@@ -94,6 +94,7 @@ questFive();
 
 
 //Question #6
+function questSix(){
 var myGrandmaAge = '91';
 //give user 4 chances to get the correct answer
 for (var i = 1; i < 5; i++) {
@@ -118,6 +119,8 @@ var question6 = prompt('How old is my grandma?');
 if (i > 4 ) { 
   alert('Sorry, you ran out of chances. My grandma is ' + myGrandmaAge + ' years old.');
 }
+}
+questSix();
 
 //Question #7
 var favoriteRestaurant = ['red robin', 'red mill', 'dicks']
