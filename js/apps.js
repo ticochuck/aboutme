@@ -12,6 +12,7 @@ alert('Hi ' + userName + '! \nMy name is Chuck. So that you can get to know me a
 var correctAnswers = 0;
 
 //Question #1
+function questOne(){
 for (var i = 0; i < 3; i++) {
   var question1 = prompt('Question #1. \nAm I from Puerto Rico?');
   if ((question1.toLowerCase() === 'no') || (question1.toLowerCase() === 'n')) {
@@ -30,6 +31,9 @@ for (var i = 0; i < 3; i++) {
       }
     }
 } 
+}
+questOne();
+
 
 //Question #2
 var question2 = prompt('Question #2. \nAm I chinese?');
