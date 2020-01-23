@@ -50,6 +50,7 @@ if ((question2.toLowerCase() === 'yes') || (question2.toLowerCase() === 'y')) {
 questTwo();
  
 //Question #3
+function questThree(){
 var question3 = prompt('Question #3. \nDo I like burgers?');
 if ((question3.toLowerCase() === 'yes') || (question3.toLowerCase() === 'y')) {
   //console.log('CORRECT! \nI love burgers. I can eat one every day!!');
@@ -59,6 +60,8 @@ if ((question3.toLowerCase() === 'yes') || (question3.toLowerCase() === 'y')) {
   //console.log('Incorrect :( \nWho doesn\'t love burgers?? I love burgers, well done and no onions please!');
   alert('Incorrect :( \nWho doesn\'t love burgers?? I love burgers, well done and no onions please!');
 }
+}
+questThree();
 
 //Question #4
 var question4 = prompt('Question #4. \nDo I have 4 kids under 6 years old?');
