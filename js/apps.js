@@ -64,6 +64,7 @@ if ((question3.toLowerCase() === 'yes') || (question3.toLowerCase() === 'y')) {
 questThree();
 
 //Question #4
+function questFour(){
 var question4 = prompt('Question #4. \nDo I have 4 kids under 6 years old?');
 if ((question4.toLowerCase() === 'no') || (question4.toLowerCase() === 'n')) {
   //console.log('CORRECT! \nI ONLY have 3 kids under 6 years old');
@@ -73,6 +74,9 @@ if ((question4.toLowerCase() === 'no') || (question4.toLowerCase() === 'n')) {
   //console.log('Incorrect :( \nWhat are you thinking, ' + userName + '? That would be crazy... I ONLY have 3 kids 6 and under...');
   alert('Incorrect :( \nWhat are you thinking, ' + userName + '? That would be crazy... I ONLY have 3 kids 6 and under...');
 }
+}
+questFour();
+
 
 //Question #5
 var question5 = prompt('Question #5. \nAm I married?');
