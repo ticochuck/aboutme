@@ -12,6 +12,7 @@ alert('Hi ' + userName + '! \nMy name is Chuck. So that you can get to know me a
 var correctAnswers = 0;
 
 //Question #1
+function questOne(){
 for (var i = 0; i < 3; i++) {
   var question1 = prompt('Question #1. \nAm I from Puerto Rico?');
   if ((question1.toLowerCase() === 'no') || (question1.toLowerCase() === 'n')) {
@@ -30,8 +31,12 @@ for (var i = 0; i < 3; i++) {
       }
     }
 } 
+}
+questOne();
+
 
 //Question #2
+function questTwo(){
 var question2 = prompt('Question #2. \nAm I chinese?');
 if ((question2.toLowerCase() === 'yes') || (question2.toLowerCase() === 'y')) {
   //console.log('CORRECT! \nMy dad is from China and my mom is from Costa Rica. That makes me a rare Chinese-Costarican!');
@@ -41,8 +46,11 @@ if ((question2.toLowerCase() === 'yes') || (question2.toLowerCase() === 'y')) {
   //console.log('Incorrect :( \nEven though I was born in Costa Rica, my dad is from China, so that makes me a rare Chinese-Costarican!');
   alert('Incorrect :( \nEven though I was born in Costa Rica, my dad is from China, so that makes me a rare Chinese-Costarican!');
 }
+}
+questTwo();
  
 //Question #3
+function questThree(){
 var question3 = prompt('Question #3. \nDo I like burgers?');
 if ((question3.toLowerCase() === 'yes') || (question3.toLowerCase() === 'y')) {
   //console.log('CORRECT! \nI love burgers. I can eat one every day!!');
@@ -52,8 +60,11 @@ if ((question3.toLowerCase() === 'yes') || (question3.toLowerCase() === 'y')) {
   //console.log('Incorrect :( \nWho doesn\'t love burgers?? I love burgers, well done and no onions please!');
   alert('Incorrect :( \nWho doesn\'t love burgers?? I love burgers, well done and no onions please!');
 }
+}
+questThree();
 
 //Question #4
+function questFour(){
 var question4 = prompt('Question #4. \nDo I have 4 kids under 6 years old?');
 if ((question4.toLowerCase() === 'no') || (question4.toLowerCase() === 'n')) {
   //console.log('CORRECT! \nI ONLY have 3 kids under 6 years old');
@@ -63,8 +74,12 @@ if ((question4.toLowerCase() === 'no') || (question4.toLowerCase() === 'n')) {
   //console.log('Incorrect :( \nWhat are you thinking, ' + userName + '? That would be crazy... I ONLY have 3 kids 6 and under...');
   alert('Incorrect :( \nWhat are you thinking, ' + userName + '? That would be crazy... I ONLY have 3 kids 6 and under...');
 }
+}
+questFour();
+
 
 //Question #5
+function questFive(){
 var question5 = prompt('Question #5. \nAm I married?');
 if ((question5.toLowerCase() === 'yes') || (question5.toLowerCase() === 'y')) {
   //console.log('CORRECT! \nAnd actually, this year me and my wife Laura are celebrating our 10th anniversary');
@@ -74,8 +89,12 @@ if ((question5.toLowerCase() === 'yes') || (question5.toLowerCase() === 'y')) {
   //console.log('Incorrect :( \nMy wife Laura and I have been married for 10 years.');
   alert('Incorrect :( \nMy wife Laura and I have been married for 10 years.');
 }
+}
+questFive();
+
 
 //Question #6
+function questSix(){
 var myGrandmaAge = '91';
 //give user 4 chances to get the correct answer
 for (var i = 1; i < 5; i++) {
@@ -100,8 +119,11 @@ var question6 = prompt('How old is my grandma?');
 if (i > 4 ) { 
   alert('Sorry, you ran out of chances. My grandma is ' + myGrandmaAge + ' years old.');
 }
+}
+questSix();
 
 //Question #7
+function questSeven(){
 var favoriteRestaurant = ['red robin', 'red mill', 'dicks']
 console.log('favoriteRestaurant array = ' + favoriteRestaurant);
 //first loop is for 6 attemps to get the correct answer
@@ -125,6 +147,9 @@ for (var j = 0; j < 6; j++) {
       alert('Sorry, you run out of chances');
   }
 }
+}
+questSeven();
+
 
 alert('Thank you for playing ' + userName + '! You got ' + correctAnswers + ' correct answers out of 7. See you next time!');
 
