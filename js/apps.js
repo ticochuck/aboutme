@@ -79,6 +79,7 @@ questFour();
 
 
 //Question #5
+function questFive(){
 var question5 = prompt('Question #5. \nAm I married?');
 if ((question5.toLowerCase() === 'yes') || (question5.toLowerCase() === 'y')) {
   //console.log('CORRECT! \nAnd actually, this year me and my wife Laura are celebrating our 10th anniversary');
@@ -88,6 +89,9 @@ if ((question5.toLowerCase() === 'yes') || (question5.toLowerCase() === 'y')) {
   //console.log('Incorrect :( \nMy wife Laura and I have been married for 10 years.');
   alert('Incorrect :( \nMy wife Laura and I have been married for 10 years.');
 }
+}
+questFive();
+
 
 //Question #6
 var myGrandmaAge = '91';
