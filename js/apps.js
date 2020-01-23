@@ -12,15 +12,25 @@ alert('Hi ' + userName + '! \nMy name is Chuck. So that you can get to know me a
 var correctAnswers = 0;
 
 //Question #1
-var question1 = prompt('Question #1. \nAm I from Puerto Rico? Yes or No.');
-if ((question1.toLowerCase() === 'no') || (question1.toLowerCase() === 'n')) {
-  //console.log('CORRECT! \nI was born and raised in Costa Rica!');
-  alert('CORRECT! \nI was born and raised in Costa Rica!');
-  correctAnswers ++;
-} else if ((question1.toLowerCase() === 'yes') || (question1.toLowerCase() === 'y')) {
-  //console.log('Incorrect :( \nClose but not really. I was born and raised in Costa Rica.');
-  alert('Incorrect :( \nClose but not really. I was born and raised in Costa Rica.');
+for (var i = 0; i < 3; i++) {
+  var question1 = prompt('Question #1. \nAm I from Puerto Rico?');
+  if ((question1.toLowerCase() === 'no') || (question1.toLowerCase() === 'n')) {
+    console.log('CORRECT! \nI was born and raised in Costa Rica!');
+    alert('CORRECT! \nI was born and raised in Costa Rica!');
+    break;
+  } else if ((question1.toLowerCase() === 'yes') || (question1.toLowerCase() === 'y')) {
+    console.log('Incorrect :( \nClose but not really. I was born and raised in Costa Rica.');
+    alert('Incorrect :( \nClose but not really. I was born and raised in Costa Rica.');
+    break;
+  } else {
+    if (i < 2) {
+      alert('That is not a valid answer. Please enter "yes" or "no".');  
+    } else if (i === 2) {
+        alert('That is not a valid answer. The correct answer is "no", Chuck is from Costa Rica.');
+      }
+    }
 } 
+
 //Question #2
 var question2 = prompt('Question #2. \nAm I chinese?');
 if ((question2.toLowerCase() === 'yes') || (question2.toLowerCase() === 'y')) {
@@ -67,7 +77,6 @@ if ((question5.toLowerCase() === 'yes') || (question5.toLowerCase() === 'y')) {
 
 //Question #6
 var myGrandmaAge = '91';
-
 //give user 4 chances to get the correct answer
 for (var i = 1; i < 5; i++) {
 var question6 = prompt('How old is my grandma?');
@@ -95,7 +104,6 @@ if (i > 4 ) {
 //Question #7
 var favoriteRestaurant = ['red robin', 'red mill', 'dicks']
 console.log('favoriteRestaurant array = ' + favoriteRestaurant);
-
 //first loop is for 6 attemps to get the correct answer
 for (var j = 0; j < 6; j++) {
   var question7 = prompt('What is my favorite burger restaurant?');
