@@ -36,6 +36,7 @@ questOne();
 
 
 //Question #2
+function questTwo(){
 var question2 = prompt('Question #2. \nAm I chinese?');
 if ((question2.toLowerCase() === 'yes') || (question2.toLowerCase() === 'y')) {
   //console.log('CORRECT! \nMy dad is from China and my mom is from Costa Rica. That makes me a rare Chinese-Costarican!');
@@ -45,6 +46,8 @@ if ((question2.toLowerCase() === 'yes') || (question2.toLowerCase() === 'y')) {
   //console.log('Incorrect :( \nEven though I was born in Costa Rica, my dad is from China, so that makes me a rare Chinese-Costarican!');
   alert('Incorrect :( \nEven though I was born in Costa Rica, my dad is from China, so that makes me a rare Chinese-Costarican!');
 }
+}
+questTwo();
  
 //Question #3
 var question3 = prompt('Question #3. \nDo I like burgers?');
