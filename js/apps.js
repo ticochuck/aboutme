@@ -123,6 +123,7 @@ if (i > 4 ) {
 questSix();
 
 //Question #7
+function questSeven(){
 var favoriteRestaurant = ['red robin', 'red mill', 'dicks']
 console.log('favoriteRestaurant array = ' + favoriteRestaurant);
 //first loop is for 6 attemps to get the correct answer
@@ -146,6 +147,9 @@ for (var j = 0; j < 6; j++) {
       alert('Sorry, you run out of chances');
   }
 }
+}
+questSeven();
+
 
 alert('Thank you for playing ' + userName + '! You got ' + correctAnswers + ' correct answers out of 7. See you next time!');
 
