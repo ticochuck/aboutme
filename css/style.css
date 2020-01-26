@@ -1,87 +1,88 @@
 html {
-    background-color: rgb(215, 216, 196);
-    border-radius: 3em;
-    margin: 5%;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/659/252/1014/mountains-lake-glacier-national-park-two-medicine-lake-wallpaper-preview.jpg");
-    background-repeat: repeat;
-    background-size: cover;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-  }
-  
-  #meetChuck {
-    width: 50%;
-    margin: 5% 35% 5% 5%;
-    padding: 1% 2% 2%; 
-    background-color: whitesmoke;
-    opacity: 0.8;
-    border-radius: 1em 3em 1em;
-    position: absolute;
-  }
-  
-  #profile {
-    min-width: 15%;
-    min-height: 30%;
-    position: absolute;
-    margin: 5% 5% 30% 65%;
-    padding: 1% 2% 2% 1%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    position: fixed;
-  }
-  
-  .profilePic {
-    border-radius: 2em;
-    max-width: 70%;
-    float: center;
-  }
-  
-  .profileText {
-    color: rgb(215, 216, 196);  
-    position: relative;
-    margin-top: 5%;
-    padding-top: 5px;
-    padding-bottom: 5px;;
-  }
-  
-  h1 {
-    color: rgb(3, 112, 175);
-    font-size: 32px;
-    font-weight: bold;
-  }
-  
-  h2 {
-    color: rgb(3, 112, 175);
-    font-size: 18px;
-    padding-top: 3%;
-    padding-bottom: 2%;
-    font-weight: bold;
-  }
-  
-  ul li {
-    margin-left: 1%;
-    list-style-type: circle;
-    padding-left: 1%;
-    padding-bottom: 0.5%;
-  }
-  
-  ol li {
-    margin-left: 1%;
-    list-style-type: decimal;
-    padding-left: 1%;
-    padding-bottom: 0.5%;
-  }
-  
-  strong {
-    font-weight: bold;
-  }
-  
-  span {
-    color: red;
-    font-weight: bold;
-  }
-  
-  i {
-    font-style: italic;
-  }
+  background-color: rgb(215, 216, 196);
+  border-radius: 3em;
+  margin: 5%;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/659/252/1014/mountains-lake-glacier-national-park-two-medicine-lake-wallpaper-preview.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  color: black;
+}
+
+#meetChuck {
+  width: 50%;
+  margin: 5% 35% 5% 5%;
+  padding: 1% 2% 2%; 
+  background-color: whitesmoke;
+  opacity: 0.8;
+  border-radius: 1em 3em 1em;
+  position: absolute;
+}
+
+#profile {
+  min-width: 15%;
+  min-height: 30%;
+  position: absolute;
+  margin: 5% 5% 30% 65%;
+  padding: 1% 2% 2% 1%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  position: fixed;
+}
+
+.profilePic {
+  border-radius: 2em;
+  max-width: 70%;
+  float: center;
+}
+
+.profileText {
+  color: rgb(215, 216, 196);  
+  position: relative;
+  margin-top: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;;
+}
+
+h1 {
+  color: rgb(3, 112, 175);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(3, 112, 175);
+  font-size: 18px;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-weight: bold;
+}
+
+ul li {
+  margin-left: 5%;
+  list-style-type: circle;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+ol li {
+  margin-left: 5%;
+  list-style-type: decimal;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
